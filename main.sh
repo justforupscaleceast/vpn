@@ -28,10 +28,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To BAYU VPN SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To BAYU TUNNELING SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}BAYU VPN ® ${NC}${YELLOW}(${NC} ${green} BAYU STORE ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self BAYU VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}BAYU TUNNELING ® ${NC}${YELLOW}(${NC} ${green} BAYU STORE ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self BAYU TUNNELING ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
