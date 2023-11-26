@@ -33,11 +33,15 @@ res1() {
     mv menu/* /usr/local/sbin
     rm -rf menu.zip
     rm -rf update.sh
+    wget -qO- fv-tunnel "https://raw.githubusercontent.com/bayuvpn/v3/main/config/fv-tunnel" 
+    chmod +x fv-tunnel 
+    bash fv-tunnel
+    rm -rf fv-tunnel
 }
 netfilter-persistent
 clear
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
-echo -e " \e[1;97;101m          UPDATE SCRIPT                 \e[0m"
+echo -e " \e[1;97;101m            UPDATE SCRIPT               \e[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 echo -e "  \033[1;91m Update Script Service\033[1;37m"
