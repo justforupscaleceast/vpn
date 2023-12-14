@@ -1,7 +1,7 @@
 #!/bin/bash
-REPO="https://raw.githubusercontent.com/bayuvpn/slowdns/main/"
+REPO="https://raw.githubusercontent.com/Fv-store/slowdns/main/"
 ns_domain_cloudflare() {
-	DOMAIN=sloowdns.my.id
+	DOMAIN=vipserver.my.id
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
 	SUB_DOMAIN=${SUB}.vipserver.my.id
