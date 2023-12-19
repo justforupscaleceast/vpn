@@ -267,6 +267,7 @@ restart_system(){
 #IZIN SCRIPT
 curl "ipinfo.io/org?token=7a814b6263b02c" > /root/.isp 
 curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city
+curl "ipinfo.io/org?token=7a814b6263b02c" > /root/.isp ; curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city ; apt install ruby -y && gem install lolcat
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
