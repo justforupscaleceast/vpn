@@ -271,7 +271,7 @@ curl "ipinfo.io/org?token=7a814b6263b02c" > /root/.isp ; curl "ipinfo.io/city?to
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/bayuvpn/izin/main/ip"
+izinsc="https://raw.githubusercontent.com/justforupscaleceast/txt/main/izin"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
